@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Http Cat Mobile</string>
+    <string name="enter_status_code">Enter status code</string>
+    <string name="retrieve_image">Retrieve Image</string>
 </resources>
