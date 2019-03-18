@@ -33,6 +33,14 @@ class MainActivity : AppCompatActivity() {
         loadImage(+1)
     }
 
+    fun exit(view: View) {
+        val exitIntent = Intent(Intent.ACTION_MAIN)
+
+        exitIntent.addCategory(Intent.CATEGORY_HOME)
+
+        startActivity(exitIntent)
+    }
+
     override fun onTouchEvent(event: MotionEvent): Boolean {
         if (event.action == MotionEvent.ACTION_DOWN) {
             val displayCatImageIntent = Intent(this, DisplayCatImageActivity::class.java).apply {

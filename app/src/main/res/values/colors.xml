@@ -6,4 +6,5 @@
     <color name="lightBlue">#5DADE2</color>
     <color name="lightGreen">#48C9B0</color>
     <color name="textWhite">#ECF0F1</color>
+    <color name="dangerRed">#E74C3C</color>
 </resources>
